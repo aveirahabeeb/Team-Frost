@@ -1,1 +1,204 @@
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    font-family: "Lato", sans-serif;
+    background: #E5E5E5;
+  }
+  
+  
+  /* Welcome Odinaka ! */
+ .welcome{
+    position: absolute;
+    width: 162px;
+    height: 76px;
+    left: 64px;
+    top: 109px;
+    
+    font-family: Rounded Mplus 1c Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 113.3%;
+    /* or 27px */
+    
+    
+    color: #FFFFFF;
+    
+ }
+ .sidebar{
+    position: absolute;
+    width: 242px;
+    height: 760px;
+    left: 0px;
+    top: 0px;
+    background: #370051;
+
+ }
+.name {
+    /* Tasks */
+
+
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+
+
+color: white;
+
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: block;
+}
+.navbar{
+   position: absolute;
+   width: 1118px;
+   height: 78px;
+   left: 242px;
+   top: 0px;
+   font-family: Rounded Mplus 1c Bold;
+   background: #FBFBFB;
+   font-family: Rounded Mplus 1c;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 113.3%;
+color: #370051;
+}
+.box{
+/* Rectangle 7 */
+
+
+position: absolute;
+width: 134px;
+height: 149px;
+left: 1122px;
+top: 150px;
+
+/* BASE COLOR */
+
+background: #370051;
+border-radius: 4px;
+font-family: Rounded Mplus 1c Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 113.3%;
+/* or 36px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.box-1{
+    /* Rectangle 16 */
+
+
+position: absolute;
+width: 154px;
+height: 105px;
+left: 1128px;
+top: 380px;
+
+background: #FFFFFF;
+border-radius: 4px;
+font-family: Rounded Mplus 1c Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 113.3%;
+/* or 18px */
+
+
+/* BASE COLOR */
+
+color: #370051;
+}
+.box-2{
+    position: absolute;
+width: 136px;
+height: 44px;
+left: 406px;
+top: 95px;
+
+/* BASE 2 */
+
+background: #F39F55;
+border-radius: 4px;
+font-family: Rounded Mplus 1c Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 113.3%;
+/* or 18px */
+
+
+color: #FFFFFF;
+}
+.box-3 {
+    position: absolute;
+width: 651px;
+height: 300px;
+left: 294px;
+top: 450px;
+
+background: #FFFFFF;
+border-radius: 4px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+section{
+}
+.boxes{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+margin-top: 5rem;  
+margin-left: 20rem;  
+background-color:#E5E5E5 ;
+}
+.box1, .box2, .box3{
+    background-color:white ;
+box-shadow: 0px 17px 50px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+text-align: center;
+height:37vh;
+width: 35vw;
+margin: 30px;
+justify-items: center;
+color: #370051;
+}
+.position{
+display: flex;
+float: right;
+margin-top: 15px;
+margin-right: 20px;
+font-size:15px;
+position: relative;
+ 
+}
+
+img#profile{
+    margin-top: 50px;
+    margin-left: 75px;
+}
+h2{
+    margin-top: 13px;
+}
+p{
+    margin-top: 10px;
+    font-weight: 400;
+}
+.points{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #F39F55;
+}
